@@ -6,5 +6,6 @@ import (
 
 func main (){
 	var i int = 1
-	fmt.Printf("%v:%T\n", i, i)
+	c := int64(i)
+	fmt.Printf("%v:%T\n", c, c)
 }
