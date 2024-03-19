@@ -5,7 +5,7 @@ import (
 )
 
 func main (){
-	var i int = -1
-	c := float64(i)
+	var f float64 = 3.8
+	c := int(f)
 	fmt.Printf("%v:%T\n", c, c)
 }
